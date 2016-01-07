@@ -65,9 +65,9 @@ public class Application implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-//        lookupPageAndTimeIt(facebookLookupService(), "SpringSource");
- //       lookupPageAndTimeIt(facebookLookupService(), "SpringSource");
-  //      lookupPageAndTimeIt(facebookLookupService(), "PivotalSoftware");
+        lookupPageAndTimeIt(facebookLookupService(), "SpringSource");
+        lookupPageAndTimeIt(facebookLookupService(), "SpringSource");
+        lookupPageAndTimeIt(facebookLookupService(), "PivotalSoftware");
     }
 
     private void lookupPageAndTimeIt(FacebookLookupService bigCalculator ,String page) {
